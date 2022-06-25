@@ -15,16 +15,16 @@
 html {
     font-size: 10px;
     box-sizing: border-box;
-    position: relative;
 }
 
-.container {
+body {
     height: 100vh;
     margin: 0 calc(16 / 375 * 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cream);
+    position: relative;
 }
 
 .card {
