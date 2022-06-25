@@ -68,6 +68,7 @@ html {
     font-size: 3.3rem;
     font-family: 'Fraunces', serif;
     line-height: 3.2rem;
+    letter-spacing: 0.05rem;
     color: var(--very-dark-blue);
 }
 
@@ -91,7 +92,6 @@ html {
     margin-right: 2.5rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    letter-spacing: -0.08rem;
     color: var(--dark-cyan);
 }
 
