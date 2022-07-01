@@ -66,7 +66,7 @@ body {
 }
 
 .card__title {
-    margin-top: 2.1rem;
+    margin-top: 2rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
     font-weight: 800;
@@ -76,7 +76,7 @@ body {
 }
 
 .card__description {
-    margin: 2.2rem 0 2.7rem;
+    margin: 2.3rem 0 2.7rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
     line-height: 1.65em;
@@ -93,10 +93,10 @@ body {
 }
 
 .card__price--discounted {
-    margin-right: 2.5rem;
+    margin-right: 2.4rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.038em;
     color: var(--dark-cyan);
 }
 
