@@ -66,18 +66,16 @@ body {
 }
 
 .card__title {
-    margin-left: 0.1rem;
-    margin-top: 2rem;
+    margin-top: 2.1rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    font-weight: 800;
-    letter-spacing: 0.04em;
+    letter-spacing: -0.0312em;
     line-height: 1em;
     color: var(--very-dark-blue);
 }
 
 .card__description {
-    margin: 2.3rem 0 2.7rem;
+    margin: 2.3rem 0 2.6rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
     line-height: 1.65em;
@@ -94,11 +92,10 @@ body {
 }
 
 .card__price--discounted {
-    margin-left: 0.1rem;
-    margin-right: 2.3rem;
+    margin-right: 2.5rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    letter-spacing: 0.0385em;
+    letter-spacing: -0.025em;
     color: var(--dark-cyan);
 }
 
@@ -107,7 +104,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
     color: var(--dark-grayish-blue);
-    margin-top: -0.2rem;
 }
 
 .card__button {
