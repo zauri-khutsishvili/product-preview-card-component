@@ -69,6 +69,7 @@ body {
     margin-top: 2.1rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
+    font-weight: 800;
     letter-spacing: 0.03em;
     line-height: 1em;
     color: var(--very-dark-blue);
