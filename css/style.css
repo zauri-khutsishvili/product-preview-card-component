@@ -6,7 +6,7 @@
     --white: hsl(0, 0%, 100%);
 }
 
-*, *::after, *::before {
+*, *::before, *::after {
     padding: 0;
     margin: 0;
     box-sizing: inherit;
@@ -41,6 +41,7 @@ body {
 .card__perfume {
     width: 50%;
     object-fit: cover;
+    user-select: none;
 }
 
 .card__perfume img {
@@ -59,16 +60,17 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
-    letter-spacing: .4rem;
+    letter-spacing: .325em;
     color: var(--dark-grayish-blue);
+    margin-left: -0.05rem;
 }
 
 .card__title {
     margin-top: 2.1rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    letter-spacing: -0.1rem;
-    line-height: 3.2rem;
+    letter-spacing: -0.0312em;
+    line-height: 1em;
     color: var(--very-dark-blue);
 }
 
@@ -76,7 +78,8 @@ body {
     margin: 2.3rem 0 2.6rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
-    line-height: 2.3rem;
+    line-height: 1.65em;
+    letter-spacing: 0.0015em;
     color: var(--dark-grayish-blue);
 }
 
@@ -92,7 +95,7 @@ body {
     margin-right: 2.5rem;
     font-size: 3.2rem;
     font-family: 'Fraunces', serif;
-    letter-spacing: -0.08rem;
+    letter-spacing: -0.025em;
     color: var(--dark-cyan);
 }
 
@@ -146,11 +149,13 @@ body {
 
     .card__title {
         margin-top: 1.3rem;
+        letter-spacing: -0.032em;
     }
 
     .card__description {
         margin: 1.5rem 0 4.4rem;
         font-size: 1.3rem;
+        line-height: 1.77em;
     }
 
     .card__price {
@@ -164,8 +169,8 @@ body {
 
 .attribution {
     position: absolute;
-    bottom: 1rem;
-    font-size: 1.1rem;
+    bottom: 1em;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     color: hsl(30, 38%, 70%);
     text-align: center;
