@@ -13,12 +13,13 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
     box-sizing: border-box;
 }
 
 body {
     height: 100vh;
+    min-height: 76rem;
     margin: 0 calc(16 / 375 * 100%);
     display: flex;
     justify-content: center;
