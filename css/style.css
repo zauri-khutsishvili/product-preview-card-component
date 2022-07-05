@@ -135,6 +135,7 @@ body {
 @media (max-width: 540px) {
     body {
         min-height: 72rem;
+    }
     
     .card {
         width: 37.05rem;
